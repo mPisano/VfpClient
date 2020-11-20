@@ -217,7 +217,6 @@ namespace VfpClient {
             return _columnVfpTypes;
         }
 
-
         public override bool IsDBNull(int ordinal)
         {
             return Execute(() =>
